@@ -1,0 +1,22 @@
+#nav-interests {
+    color: white;
+}
+
+table {
+    border-collapse: collapse;
+    border-style: hidden;
+    margin: auto;
+}
+
+table tr:nth-child(n+1) {
+    border-top: 1px solid gray;
+}
+
+table tr * {
+    padding: 10px;
+}
+
+table th {
+    border-right: 1px solid gray;
+    text-align: right;
+}

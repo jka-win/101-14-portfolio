@@ -1,0 +1,29 @@
+#nav-index {
+    color: white;
+}
+
+.section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50px;
+    opacity: 80%;
+    border: solid silver;
+}
+
+.section p {
+    text-align: justify;
+    margin: 40px;
+}
+
+.section ul {
+    list-style-type: square;
+    list-style-position: outside;
+    line-height: 40px;
+}
